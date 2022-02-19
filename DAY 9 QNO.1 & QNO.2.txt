@@ -1,0 +1,95 @@
+QUESTION NO- 1
+Fix the bugs in below snippet.
+
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+ANSWER- BODY SHOULD NOT BE IN HEAD.
+INPUT-
+    <head>
+        <title>Document
+            
+        </title>
+    </head>
+    <body>
+        guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+PAGE OUTPUT-
+guvi
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Guvi Geek Network
+
+
+
+
+QUESTION NO- 2
+Try the below one.
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+ANSWER- BODY SHOULD NOT BE IN HEAD AND TITLE END TAG SHOULD BE THERE
+INPUT-
+<html lang="en">
+    <head>
+        <title>Document</title>
+           
+    </head>
+    <body>
+        guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+PAGE OUTPUT-
+guvi
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Guvi Geek Network
+
+
+
+
+
+
+
