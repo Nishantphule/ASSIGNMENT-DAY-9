@@ -1,0 +1,48 @@
+body{
+    background-color: lightcyan;
+}
+header{
+    background-color: yellow;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: auto;
+    
+}
+
+input[type=radio]{
+  }
+ input[type=radio]:focus{
+     background-color: teal;
+ }
+.container form{
+    text-align:justify;
+
+}
+
+.container form label{
+    text-align: center;
+    background-color:lightcoral;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    padding-top: 20px;
+
+}
+.container form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    
+    color: black;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
