@@ -1,0 +1,87 @@
+<!-- Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>DAY 9 Q.NO.7</title>
+</head>
+<body>
+    <header>Yes! I want to subscribe to Mag-O-Zine</header>
+        <div class="container">
+            <form action="#"> 
+                <section>
+                    <p id="one" >
+                        <input type="text"
+                name="Firstname"
+                id="name"
+                placeholder="Enter your First name"
+                required> <br>
+                <label for="Firstname">First Name</label>
+                    </p>
+                <p class="one" >
+                    <input type="text"
+                name="Lastname"
+                id="name"
+                placeholder="Enter your Last name"
+                required> <br>
+               <label for="Lastname">Last Name</label>
+                </p>
+                </section><br>
+               <input type="text"
+                name="Address" 
+                id="Address" 
+                placeholder="Enter your address"
+                required>
+                <label for="Address">Address</label> <br>
+                <section>
+                    <p class="two">
+                        <input type="text" 
+                name="City" 
+                id="City"
+                placeholder="City"
+                required>
+                <label for="City">City</label>
+                    </p>
+                <p class="two">
+                    <input type="text" 
+                name="State" 
+                id="State"
+                placeholder="State"
+                required>
+                <label for="State">State</label>
+                </p>
+                <p class="two">
+                    <input type="number"
+                 name="ZIP"
+                id="ZIP"
+                placeholder="ZIP"
+                required>
+                <label for="ZIP">ZIP</label>
+                </p>
+                </section> <br>
+                <div id="first"> 
+                    Subscribe for: <input type="checkbox" name="Year" id="1Year" checked>
+                 <label for="1year">1 Year (19.95$)</label>
+                 <input type="checkbox" name="Year" id="2Year" checked>
+                 <label for="2year">2 Year (35.00$)</label>
+                </div>
+                <div id="second"> 
+                    Send me for information about: <br> <input type="checkbox" name="checkbox1" id="checkbox1" checked>
+                 <label for="Computer-Zine">Computer-Zine</label> <br>
+                 <input type="checkbox" name="checkbox2" id="checkbox2" checked>
+                 <label for="Fishing-Zine">Fishing-Zine</label> <br>
+                 <input type="checkbox" name="checkbox3" id="checkbox3" checked>
+                 <label for="Cat-O-Zine">Cat-O-Zine</label>
+                </div>
+                
+            </form>
+        </div>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

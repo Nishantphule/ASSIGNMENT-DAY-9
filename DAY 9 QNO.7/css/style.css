@@ -1,0 +1,72 @@
+body{
+    background-color: whitesmoke;
+    border-style: solid;
+    width: 600px;
+    height: 410px;
+    margin-left: 650px;
+    margin-top: 50px;
+    position: absolute;
+}
+header{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: red;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=text],input[type=number]{
+    width: 100%;
+    display: inline;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black
+}
+input[type=checkbox]{
+
+}
+input[type=text]:focus{
+    
+}
+input[type=radio]:focus{
+    
+}
+.container label input{
+    font-size: 15px;
+    color: black;
+}
+
+#first{
+    display: inline;
+    font-size: 20px;
+}
+#second{
+    font-size: 20px;
+}
+section{
+    width: 450px;
+    height: 40px;
+    position: relative;
+    justify-content: center;
+    display:inline-flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+.one{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+.two{
+width: 400px;
+height: 100px;
+margin-left: 20px;
+margin-right: 20px ;
+}
