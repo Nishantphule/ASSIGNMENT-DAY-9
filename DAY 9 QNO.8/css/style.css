@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+header{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: cadetblue;
+    color: black;
+}
