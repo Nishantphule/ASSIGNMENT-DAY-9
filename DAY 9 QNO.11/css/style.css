@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+}
+header{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(31, 156, 156);
+    color: lightcoral;
+}
+
+
+input[type=text],input[type=checkbox],input[type=checkbox],input[type=button],input[type=color],input[type=date],input[type=datetime-local],input[type=email],input[type=file],input[type=hidden],input[type=image],input[type=month],input[type=number],input[type=password],input[type=radio],input[type=range],input[type=reset],input[type=search],input[type=submit],input[type=tell],input[type=time],input[type=url],input[type=week]{
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type=text]:focus,input[type=phonenumber]:focus{
+    background-color: lightcoral;
+}
+
+.container form label{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    padding: auto;
+    margin-top: 50px;
+}
