@@ -1,0 +1,113 @@
+<!-- QUESTION NO.9
+Write HTML input tags snippet to show default values for all Form elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>DAY 9 Q.NO.9</title>
+</head>
+<body>
+    <header id="first">REGISTERATION FORM<FORM></FORM></header>
+    <div class="container">
+        <form action="#">
+            <div class="row">
+                <div class="col-25">
+                    <label for="NAME">FIRST NAME:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="NAME" id="NAME" placeholder="NISHANT" required>
+                </div>
+                <div class="col-25">
+                    <label for="NAME">LAST NAME:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="NAME" id="NAME" placeholder="PHULE" required>
+                </div>
+                <div class="col-25">
+                    <label for="date">DOB</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" name="DOB" id="DOB" required>
+                </div>
+                <div class="col-25">
+                    <label for="GENDER">GENDER</label>
+                </div>
+                <div class="col-75">
+                    <label for="MALE">MALE</label><input type="radio" name="GENDER" id="GENDER" checked >
+                    <label for="FEMALE">FEMALE</label><input type="radio" name="GENDER" id="GENDER" checked>
+                    <label for="OTHER">OTHER</label><input type="radio" name="GENDER" id="GENDER" checked>
+                </div>
+                <div class="col-25">
+                    <label for="EMAIL">EMAIL:</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="EMAIL" id="EMAIL" placeholder="nishantphule12@gmail.com" required>
+                </div>
+                <div class="col-25">
+                    <label for="CONFIRM">CONFIRM YOUR EMAIL:</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="EMAIL" id="EMAIL" placeholder="nishantphule12@gmail.com" required>
+                </div>
+                <div class="col-25">
+                    <label for="PHONE">PHONE NUMBER:</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" name="PHONE" id="PHONE" placeholder="9960435035" required> 
+                </div>
+                <div class="col-25">
+                    <label for="COUSRE">SELECT COURSE:</label>
+                </div>
+                <div class="col-75">
+                    <select name="COURSE" id="COURSE">
+                        <option value="FULL STACK DEVELOPMENT">FULL STACK DEVELOPMENT</option>
+                        <option value="DATA SCIENCE">DATA SCIENCE</option>
+                        <option value="AI">ARTIFICIAL INTELLEGENCE</option>
+                        <option value="ML">MACHINE LEARNING</option>
+                    </select required>
+                </div>
+                <div class="col-25">
+                    <label for="PASS">CREATE PASSWORD:</label>
+                </div>
+                <div class="col-75">
+                    <input type="password" name="PASS" id="PASS" placeholder="Ni37@$@^" required>
+                </div>
+                <div class="col-25">
+                    <label for="PASS">RE-ENTER PASSWORD:</label>
+                </div>
+                <div class="col-75">
+                    <input type="password" name="PASS" id="PASS" placeholder="Ni37@$@^" required>
+                </div>
+                <div class="col-25">
+                    <label for="BATCH">BATCH:</label>
+                </div>
+                <div class="col-75">
+                    <label for="WEEKDAY">WEEKDAY</label><input type="checkbox" name="BATCH" id="BATCH" checked>
+                    <label for="WEEKEND">WEEKEND</label><input type="checkbox" name="BATCH" id="BATCH" checked>
+                </div>
+                <div class="col-25">
+                    <label for="PAYMENT SCREENSHOT">PAYMENT SCREENSHOT:</label>
+                </div>
+                <div class="col-75">
+                    <input type="file" name="SCREENSHOT" id="SCREENSHOT" required>
+                </div>
+                <div class="row">
+                    <input type="submit" value="SUBMIT" placeholder="SUBMIT">
+                </div>
+
+
+
+
+            </div>  
+        </form>
+    </div>
+    <footer> ©️ Nishant Phule (2022), All Rights Reserved</footer>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
